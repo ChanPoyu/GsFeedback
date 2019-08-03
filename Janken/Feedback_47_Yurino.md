@@ -7,7 +7,7 @@
 - 使われてないcssファイルがcssフォルダーにあります。そして使ってるcssファイルとイメージファイルがhtmlと同じ階層にあるのは少し気になります。ファイルの置き方は今後作業量が多くなることにつれて、扱いやすさがかなり変わってきます。しっかり、意味のある管理の仕方にしましょう。
 
 # その他のアドバイス
-- `sample.css`をhtmlと同じ階層においたのは読み込めないからでしょうか。javascriptは[相対パス](https://techacademy.jp/magazine/5801)を指定できるため下記のように指定すれば読み込めます。
+- `sample.css`をhtmlと同じ階層においたのは読み込めないからでしょうか。javascriptは[相対パス](https://techacademy.jp/magazine/5801)を指定できるので、下記のように指定すれば読み込めます。
 ```html
 <link rel="stylesheet" href="./css/sample.css">
 ```
