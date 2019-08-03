@@ -10,4 +10,3 @@
 # その他
 - 親要素と小要素の関係について書いてある[記事](https://saruwakakun.com/html-css/basic/width-height)
 - オリジナルロジックということで、コードが長くなるのは仕方ないと思いますが、プロジェクトが複雑になるにつれて、これはボトルネックになる可能性があります。[スパゲティコード](https://qiita.com/haruharuharuby/items/4bd2d73d8ccd7e3f7f40)を書かないように意識してみてください。
-<!-- TODO: 提出フォームの内容を確認 -->
