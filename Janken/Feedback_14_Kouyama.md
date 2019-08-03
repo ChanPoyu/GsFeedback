@@ -20,3 +20,4 @@
 - レスポンシブに関する[記事](https://digitalidentity.co.jp/blog/creative/responsive-web-design.html)。
 - hideとshow の[参考記事](https://qiita.com/gnk0096/items/faf1821ae09820e30ce8)
 - カーソルを合わせた時に文字が赤くならない理由は、htmlタグのstyle属性の指定にあると思います。ブラウザがソースコードを読み込んで画面に反映する時に、html要素の属性を優先して、cssが反映されなかった次第です。この辺はまた調べてみてください。
+<!-- TODO: 提出フォームの内容を確認 -->
