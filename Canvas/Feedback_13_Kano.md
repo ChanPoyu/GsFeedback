@@ -5,4 +5,4 @@
 - 特にないですが、`var chinese = "W@HW@HW@HW@HW@HW@HW@HW@HW@HW@HW@HW@HW@HW@HW@HW@HW@HW@HW@HW@H";`と言う変数の命名がちょっときになるぐらいです。w
 
 # その他のアドバイス
-- canvas要素を使ったアニメーションの例はいろいろありますね。こちらの[ドキュメント](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations)はいろいろ書いてます。ローカルにコピペしていじってみるのも楽しいですね。
+- canvas要素を使ったアニメーションの例はいろいろありますね。こちらの[ドキュメント](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations)はいろいろ書いてます。ローカルにコピペしていじってみるのも楽しいですね。コードの中身が理解できなかったらまた気軽に質問していただければと思います！
