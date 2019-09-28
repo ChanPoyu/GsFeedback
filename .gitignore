@@ -1,0 +1,9 @@
+# Logs
+logs
+*.log
+
+# input name data
+namelist.csv
+
+# Dependency directories
+node_modules/
