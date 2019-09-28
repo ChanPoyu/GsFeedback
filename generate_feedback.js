@@ -16,9 +16,13 @@ if (!fs.existsSync(path)) {
 }
 
 numberAndNames.forEach((numberAndName) => {
-    fs.writeFile(`./${path}/Feedback_${numberAndName}.md`, template, (err) => console.log(err))
+    let fileDirectory = `./${path}/Feedback_${numberAndName}.md`
+    if (fs.existsSync(fileDirectory)){
+        console.warn(`${fileDirectory} already exist`)
+    }else{
+        fs.writeFile(fileDirectory, template, (err) => {
+            bool(err) ? console.log(err) : console.log(`Feedback_${numberAndName}.md generated`)
+        })
+    }
 })
-
-
-
 
