@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 let path = 'BookList'
-let content = `# 良かった点\n- \n# 気になった点\n- \n# その他`
+let template = `# 良かった点\n- \n# 気になった点\n- \n# その他`
 let numberAndNames = [
     '03_Ito',
     '11_Okumura',
@@ -16,7 +16,7 @@ if (!fs.existsSync(path)) {
 }
 
 numberAndNames.forEach((numberAndName) => {
-    fs.writeFile(`./${path}/Feedback_${numberAndName}.md`, content, (err) => console.log(err))
+    fs.writeFile(`./${path}/Feedback_${numberAndName}.md`, template, (err) => console.log(err))
 })
 
 
