@@ -6,7 +6,6 @@ let template = `# 良かった点\n- \n# 気になった点\n- \n# その他`
 
 let fileContent = fs.readFileSync(inputNameFilePath, { encoding: 'utf8' })
 let numberAndNames = fileContent.split(/,| |\n/i).filter(el => el != '')
-console.log(numberAndNames)
 
 if (!fs.existsSync(path) && !'<NEW PATH>') {
     fs.mkdirSync(path)
