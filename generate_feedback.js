@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 let path = 'BookList'
-let content = `# 良かった点\n- \n # 気になった点\n- \n # その他`
+let content = `# 良かった点\n- \n# 気になった点\n- \n# その他`
 let numberAndNames = [
     '03_Ito',
     '11_Okumura',
