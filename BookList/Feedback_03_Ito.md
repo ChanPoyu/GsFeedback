@@ -7,4 +7,4 @@
 
 # その他
 - phpmyadminからデータをエクスポートする方法について、[この記事](https://www.dbonline.jp/phpmyadmin/export-import/index1.html)を参考にしてください。
-- データベースを活用するために、テーブルの設計の基礎を理解したほうがいいですね。少し専門用語混ざっている[記事](https://qiita.com/nishina555/items/a79ece1b54faf7240fac)がありますが、参考にしてみてください。
+- データベースを活用するために、テーブルの設計の基礎を理解したほうがいいですね。少し専門用語混ざっている[記事](https://www.ulsystems.co.jp/topics/006)がありますが、参考にしてみてください。
