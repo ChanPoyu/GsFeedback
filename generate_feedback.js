@@ -1,13 +1,13 @@
 const fs = require('fs')
 
 let inputNameFilePath = `namelist.csv`
-let path = '<NEW PATH>'
+let path = 'BookList2'
 let template = `# 良かった点\n- \n# 気になった点\n- \n# その他`
 
 let fileContent = fs.readFileSync(inputNameFilePath, { encoding: 'utf8' })
 let numberAndNames = fileContent.split(/,| |\n/i).filter(el => el != '')
 
-if (!fs.existsSync(path) && !'<NEW PATH>') {
+if (!fs.existsSync(path) | !'<NEW PATH>') {
     fs.mkdirSync(path)
 }
 else{
