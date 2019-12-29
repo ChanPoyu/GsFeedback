@@ -10,7 +10,8 @@
 ```js
 for (let i = 1; i <= images.length - 1; i++) { //顔を固定したいので対象外にする
 // 当たり判定（ドラッグした位置が画像の範囲内に収まっているか）
-if (posX >= images[i].posX &&
+if (
+    posX >= images[i].posX &&
     posX <= (images[i].posX + images[i].width) &&
     posY >= images[i].posY &&
     posY <= (images[i].posY + images[i].height)
@@ -23,7 +24,8 @@ if (posX >= images[i].posX &&
 ```
 forループの中で、一個インデントを下げるべきです。そして複数の条件で横長になっているので、改行して書くのはいいですが、最初の条件の前にも改行した方が良いかと。ちょっと一般的の揃え方に直すと下記のようになります。
 ```js
-for (let i = 1; i <= images.length - 1; i++) { //顔を固定したいので対象外にする
+for (let i = 1; i <= images.length - 1; i++) { 
+    //顔を固定したいので対象外にする
     // 当たり判定（ドラッグした位置が画像の範囲内に収まっているか）
     if (
         posX >= images[i].posX &&
