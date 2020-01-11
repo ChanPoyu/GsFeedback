@@ -26,7 +26,7 @@ infoWindow[i] = new google.maps.InfoWindow({
   `
 });
 ```
-ちょっとスタイリングがずれるかもしれませんが、試してみて下さい！そして、こういうhtmlのテンプレを作るときに、バッククォーテーションを使った方が読みやすくなります。
+  ちょっとスタイリングがずれるかもしれませんが、試してみて下さい！そして、こういうhtmlのテンプレを作るときに、バッククォーテーションを使った方が読みやすくなります。
 
 - `google.maps.infoWindow`の中身はうまくクリックイベントとバインディングできないようですね。こっちもいろいろ試してみましたが、inputTagのなかにonClickの属性を追加するといけました。試してみて下さい！下記はサンプルです。
 
@@ -75,7 +75,7 @@ var markerData = [ // マーカーを立てる場所名・緯度・経度
  }
 ];
 ```
-一般的な揃え方ではないことをさておき、揃え方にルールがないのは非常に可読性に影響がでます。ちなみに上記を一般的に揃え方にすると、
+  一般的な揃え方ではないことをさておき、揃え方にルールがないのは非常に可読性に影響がでます。ちなみに上記を一般的に揃え方にすると、
 ```js
 var markerData = [ 
   {
@@ -110,4 +110,4 @@ var markerData = [
   }
 ];
 ```
-またいちいち肉眼で確認したくなければ、vscodeの拡張機能入れるのはお勧めです。この辺も調査をしてみて下さい！[prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)とか[indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)は個人的にお勧めです！
+  またいちいち肉眼で確認したくなければ、vscodeの拡張機能入れるのはお勧めです。この辺も調査をしてみて下さい！[prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)とか[indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)は個人的にお勧めです！

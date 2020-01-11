@@ -11,7 +11,7 @@ const peer = (window.peer = new Peer({
   debug: 3
 }));
 ```
-これはいけません！！なぜかというとkeyという項目の値の書き方がおかしかったです。上記の書き方ではkeyという項目の値が、`"${apiKey}"`という文字列になります！ここは下記のように書き直せば、まずapiKeyが正しく読み込まれます。
+  これはいけません！！なぜかというとkeyという項目の値の書き方がおかしかったです。上記の書き方ではkeyという項目の値が、`"${apiKey}"`という文字列になります！ここは下記のように書き直せば、まずapiKeyが正しく読み込まれます。
 ```js
 const apiKey = "36416143-4fe3-4acc-840e-5d872e5ba835";
 const peer = (window.peer = new Peer({
@@ -19,7 +19,7 @@ const peer = (window.peer = new Peer({
   debug: 3
 }));
 ```
-鬼頭さんが書いてみたかったのはおそらく``` `${apiKey}` ```でしょう。でもこの場合は変数が格納している値をそのまま使いたいので、上記の書き方でいいとお思います。
+  鬼頭さんが書いてみたかったのはおそらく``` `${apiKey}` ```でしょう。でもこの場合は変数が格納している値をそのまま使いたいので、上記の書き方でいいとお思います。
 
 - skywayを使うためのもう1つのハードルは「ローカルサーバーを立ち上げること」です。[公式ドキュメント](https://webrtc.ecl.ntt.com/js-tutorial.html)にも書いてありますが、skywayが提供するコア機能(webRTC)を動作させるために、ローカルでサーバーを立ち上げることが必須です。phpを使ってローカルサーバーを立ち上げる方法は今後の授業ありますが、現在はhtml，css，javaScriptを使った静的サイトだけをサーバーでhostingする場合はvs codeの拡張機能の[live-server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)を使えば十分です。
 
